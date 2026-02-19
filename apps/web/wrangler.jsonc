@@ -1,8 +1,8 @@
 {
-  "name": "seotech-dev-site",
-  "compatibility_date": "2026-02-19",
-  "assets": {
-    "directory": "./dist",
-    "not_found_handling": "single-page-application"
-  }
+    "name": "seotech",
+    "compatibility_date": "2026-02-19",
+    "assets": {
+        "directory": "./dist",
+        "not_found_handling": "single-page-application",
+    },
 }
