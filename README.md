@@ -16,17 +16,13 @@ bun check-types
 bun build
 ```
 
-## Cloudflare Pages SPA routing
-
-`apps/web/public/_redirects` is configured as:
-
-```txt
-/* /index.html 200
-```
-
 ## Cloudflare deployment (Wrangler)
 
 Wrangler config lives at `apps/web/wrangler.jsonc`.
+
+SPA routing is handled by Wrangler assets config:
+
+- `"not_found_handling": "single-page-application"`
 
 Deploy commands:
 
